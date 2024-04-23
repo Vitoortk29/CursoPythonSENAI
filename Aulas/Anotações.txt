@@ -1,0 +1,27 @@
+ATALHOS VSCODE
+Ctrl + J = Abrir Terminal
+Ctrl + K + C = Comentar
+Ctrl + K + U = Descomentar
+Ctrl + B = Minimiza a aba de pastas
+Ctrl + P = Permite selecionar qual aba você quer abrir 
+Ctrl + W = Fecha a aba que você está
+Ctrl + <Números> = Navega entre as abas
+Ctrl + D = Primeiro selecione a palavra que deseja trocar e vem apertando o comando e ele vem selecionando as outras palavras iguais
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Para descobrir a posição do mouse podemos utilizar a biblioteca mouseinfo
+Abra o CMD / Digite pip install mouseinfo / Depois digite Python / Digite from mouseinfo import MouseInfo /Digte mouseInfo()
+
+
+biblioteca para criação de Executavel Pyinstaller
+comando para gerar pyinstaller --onefile <nome do arquivo>
+
+Biblioteca keyboard
+Está biblioteca serve para aceitar palavras com acentos.
+
+Biblioteca Ploty
+Está biblioteca é utilizada para gerar Gráficos
+
+
+Biblioteca nbformat

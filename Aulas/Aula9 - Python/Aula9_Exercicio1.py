@@ -1,0 +1,36 @@
+import pyautogui
+import time
+
+pyautogui.PAUSE = 1
+pyautogui.press('Win')
+pyautogui.write('Chrome')
+pyautogui.press('Enter')
+url = 'https://sp.senai.br/unidade/matao/'
+pyautogui.write(url)
+pyautogui.press('Enter')
+pyautogui.press('F11')
+pyautogui.rightClick(844, 444)
+pyautogui.press('down', presses=9)
+pyautogui.press('Enter')
+pyautogui.hotkey('Win', 'd')
+pyautogui.rightClick()
+pyautogui.press('down', presses=11)
+pyautogui.press('right')
+pyautogui.press('Enter')
+pyautogui.write('Foto_senai')
+pyautogui.press('Enter')
+pyautogui.press('Win')
+pyautogui.write('Word')
+pyautogui.press('Enter')
+time.sleep(2)
+pyautogui.press('Enter')
+pyautogui.hotkey('ctrl', 'v')
+pyautogui.hotkey('alt', 'F4')
+pyautogui.press('Enter')
+pyautogui.write('SenaiDaMassa')
+pyautogui.click(532,49)
+caminho = r'C:\Users\Aluno\Desktop\Foto_senai'
+pyautogui.write(caminho)
+pyautogui.press('Enter')
+pyautogui.press('Tab', presses=14)
+pyautogui.press('Enter')

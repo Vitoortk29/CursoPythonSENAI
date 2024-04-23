@@ -1,0 +1,4 @@
+dropna = Comando que elimina linha em brancos.
+
+columns [] = Remove alguma coluna do arquivo.
+

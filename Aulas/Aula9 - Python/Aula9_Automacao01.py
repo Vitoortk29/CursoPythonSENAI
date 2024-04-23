@@ -1,0 +1,31 @@
+import pyautogui
+import time 
+
+pyautogui.PAUSE = 1
+pyautogui.press('Win')
+pyautogui.write('Chrome')
+time.sleep(1)
+pyautogui.press('Enter')
+time.sleep(1)
+url = 'https://www.google.com/'
+pyautogui.write(url)
+pyautogui.press('Enter')
+time.sleep(1)
+pyautogui.write('Senai')
+pyautogui.press('Enter')
+pyautogui.press('F11')
+# pyautogui.click(x=324, y=111)
+pyautogui.press('Tab', presses=15)
+pyautogui.press('Enter')
+pyautogui.press('Tab', presses=31)
+pyautogui.press('Enter')
+pyautogui.rightClick(x=1509, y=459)
+pyautogui.press('down', presses=9)
+pyautogui.press('Enter')
+pyautogui.hotkey('Win', 'd')
+pyautogui.rightClick()
+pyautogui.press('down', presses=10)
+pyautogui.press('right')
+pyautogui.press('Enter')
+pyautogui.write('Foto_senai')
+pyautogui.press('Enter')
