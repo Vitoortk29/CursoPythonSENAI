@@ -23,5 +23,8 @@ Está biblioteca serve para aceitar palavras com acentos.
 Biblioteca Ploty
 Está biblioteca é utilizada para gerar Gráficos
 
+Biblioteca nbformat 
+Instala junto com a Ploty para não dar B.o no codigo
 
-Biblioteca nbformat
+Biblioteca scikit-learn
+Está Biblioteca é para IA 
