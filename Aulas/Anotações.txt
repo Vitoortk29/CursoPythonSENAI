@@ -27,4 +27,7 @@ Biblioteca nbformat
 Instala junto com a Ploty para não dar B.o no codigo
 
 Biblioteca scikit-learn
-Está Biblioteca é para IA 
+Está Biblioteca é para IA
+
+Biblioteca Pillow 
+Serve para manipular imagens
